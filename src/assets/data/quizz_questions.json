@@ -1,0 +1,121 @@
+{
+  "title": "Em qual cor você vibra em amor ?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual destas escolhas seu coração se vê fazendo?",
+      "options": [
+        { "id": 1, "name": "Você ama andar pela natureza", "alias": "A" },
+        { "id": 2, "name": "Você ama meditar em silêncio", "alias": "B" },
+        { "id": 3, "name": "Você ama Plantar flores", "alias": "C" },
+        { "id": 4, "name": "Você ama a companhia de todos", "alias": "D" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Como você se sente em relação as crianças ?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Eu gosto de crianças e elas gostam de mim também",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Eu gosto de crianças, eu sempre estou  disposto a brincar com elas",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Eu gosto de crinaças, sinto nelas uma conexão familiar",
+          "alias": "C"
+        },
+        {
+          "id": 4,
+          "name": "Eu gosto delas, estão sempre me abraçando e me chamando para brincar e sempre vou",
+          "alias": "D"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Como você vê os animais?",
+      "options": [
+        { "id": 1, "name": "Eles são meus irmãos espirituais", "alias": "A" },
+        {
+          "id": 2,
+          "name": "Estou sempre resgatando eles da rua e ajudando a encontrar um lar",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Eu olho nos olhos deles e sinto eles em mim",
+          "alias": "C"
+        },
+        {
+          "id": 4,
+          "name": "Eu e eles somos um só ser espiritual, feito de amor",
+          "alias": "D"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Qual o seu maior sonho?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Viver em uma comunidade auto suficiente com plena conexão com a natureza",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Ajudar as pessoas, servir em amor a todos qe eu puder",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Viver em amor incondicional, sendo e ensinando esse amor",
+          "alias": "C"
+        },
+        {
+          "id": 4,
+          "name": "Realizar a Unidade divina que há em cada um de nós",
+          "alias": "D"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Onde você se sente mais feliz ?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Caminhando na floresta num lindo dia com muitas nuvens parecendo algodão",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Viajando ara um lugar lindo de céu azul e claro ",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Cuidando de seu jardim, regando suas rozas e violetas",
+          "alias": "C"
+        },
+        {
+          "id": 3,
+          "name": "Meditando silenciosamente, reconhecendo a beleza divina contida em tudo e todos",
+          "alias": "C"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "A": "Você Vibra AMOR BRANCO! Você ama estar em paz e a paz seu caminho brilha no amor branco, a jornada esiritual a sua frente é linda e tera muitas esperiências espirituais.",
+    "B": "Você Vibra AMOR AZUL! Você ama estar bem e sempre está procrando ajudar as pessoas de alguma forma, por isso seu amor brilha em azul, seu caminho espiritual é de cura de si mesmo ou dos outros.",
+    "C": "Você Vibra AMOR VIOLETA! Você ama servir, servir em amor, você com seu amor violeta transmuta as energias discordantes e sua jornada espiritual é de iluminação sua e dos ses amados",
+    "D": "Você Vibra AMOR ROSA! Você é o puro amor, seu servir é em amor por isso na sua jornada espiritual você será para muitos e muitas um jorrar de amor Rosa espiritual"
+  }
+}

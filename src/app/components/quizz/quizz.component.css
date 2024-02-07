@@ -1,0 +1,131 @@
+.quizz__container {
+  width: 80%;
+  margin: auto;
+  margin-top: 1.25rem;
+}
+.quizz-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.625;
+}
+.quizz-logo h3 {
+  margin: 1.25rem 0;
+}
+.quizz-questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #4224d9;
+  border-radius: 0.5rem;
+  background-color: #644ed2;
+  width: 100%;
+  height: 12.5rem;
+  font-size: 1.25rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 1.25rem;
+}
+.quizz-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.btn-options-rgb {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.063rem;
+}
+.btn-options-rgb {
+  width: 48%;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  margin-bottom: 0.425rem;
+  margin-left: 0.425rem;
+}
+
+.btn-options-rgb:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.btn-options-rgb:active {
+  color: #000;
+  position: relative;
+  top: 2px;
+}
+
+.btn-options-rgb:active:after {
+  background: transparent;
+}
+
+.btn-options-rgb:hover:before {
+  opacity: 1;
+}
+
+.btn-options-rgb:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.quizz-results {
+  align-items: center;
+  background-color: #1f0539;
+  border-radius: 0.652rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 21.875rem;
+  margin-top: 1.25rem;
+  padding: 1.875rem;
+  width: 100%;
+}
