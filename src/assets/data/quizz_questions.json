@@ -8,7 +8,7 @@
         { "id": 1, "name": "Você ama andar pela natureza", "alias": "A" },
         { "id": 2, "name": "Você ama meditar em silêncio", "alias": "B" },
         { "id": 3, "name": "Você ama Plantar flores", "alias": "C" },
-        { "id": 4, "name": "Você ama a companhia de todos", "alias": "D" }
+        { "id": 4, "name": "Você ama a companhia de todos.", "alias": "D" }
       ]
     },
     {
